@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useContext } from "react";
 
 export default class Carousel extends Component {
   state = { active: 0 };
