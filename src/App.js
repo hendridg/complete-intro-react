@@ -19,7 +19,9 @@ const App = () => {
               <Details />
             </Route>
             <Route path="/">
-              <SearchParams />
+              <ThemeContext.Provider value={["green"]}>
+                <SearchParams />
+              </ThemeContext.Provider>
             </Route>
           </Switch>
         </Router>
