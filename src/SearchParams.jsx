@@ -26,7 +26,6 @@ const SearchParams = () => {
 
   return (
     <div className="search-params">
-      <h2>{theme}</h2>
       <form
         onSubmit={(e) => {
           e.preventDefault();
@@ -75,7 +74,7 @@ const SearchParams = () => {
             ))}
           </select>
         </label>
-        <button type="submit" onClick={() => setTheme("white")} style={{backgroundColor: `${theme}`}}>Search</button>
+        <button type="submit" onClick={() => setTheme("yellow")} style={{backgroundColor: `${theme}`}}>Search</button>
       </form>
       <Results pets={pets} />
     </div>
