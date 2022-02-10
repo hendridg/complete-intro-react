@@ -12,7 +12,7 @@
 - Run this command in your OS terminal to get a copy of the project:
 
   ```
-  git@github.com:hendridg/math-magicians.git
+  git@github.com:hendridg/complete-intro-react.git
   ```
 
 - Open the folder project from your code editor.
@@ -25,7 +25,7 @@
 
 - Clone the repository in order to get a copy of this project
 
-Open a terminal or a git bash in the desired directory and run `https://github.com/hendridg/math-magicians.git`
+Open a terminal or a git bash in the desired directory and run `https://github.com/hendridg/complete-intro-react.git`
 
 ## Available Scripts
 
@@ -55,7 +55,7 @@ Format your code with prettier.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/hendridg/capstone-javascript/issues).
+Feel free to check the [issues page](https://github.com/hendridg/complete-intro-react/issues).
 
 ## Show your support
 
