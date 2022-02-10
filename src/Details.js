@@ -19,6 +19,8 @@ class Details extends Component {
   }
 
   render() {
+    //forma de lanzar errores para probar
+    // throw new Error("hey there!");
     const { name, animal, description, breed, city, state, images, loading } =
       this.state;
     if (loading) {
